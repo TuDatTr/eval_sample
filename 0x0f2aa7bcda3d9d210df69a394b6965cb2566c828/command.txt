@@ -1,0 +1,1 @@
+timeout 60 cargo run --release -- --cores 1-16 -o "0x0f2aa7bcda3d9d210df69a394b6965cb2566c828/" on-chain -a "0x0f2aa7bcda3d9d210df69a394b6965cb2566c828" -b "latest"

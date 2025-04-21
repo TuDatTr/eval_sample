@@ -1,0 +1,7 @@
+    Finished release [optimized + debuginfo] target(s) in 0.27s
+     Running `target/release/ethfuzz --cores 1-16 -o '0x1C50c36c6bCba0C44af9DCF47d9E728b486270aa
+/' on-chain -a '0x1C50c36c6bCba0C44af9DCF47d9E728b486270aa
+' -b latest`
+thread 'main' panicked at src/main.rs:43:52:
+called `Result::unwrap()` on an `Err` value: OddLength
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

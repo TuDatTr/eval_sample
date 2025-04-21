@@ -1,0 +1,8 @@
+    Finished release [optimized + debuginfo] target(s) in 0.29s
+     Running `target/release/ethfuzz --cores 1-16 -o 0x0f2aa7bcda3d9d210df69a394b6965cb2566c828/ on-chain -a 0x0f2aa7bcda3d9d210df69a394b6965cb2566c828 -b latest`
+thread 'main' panicked at src/main.rs:47:61:
+called `Result::unwrap()` on an `Err` value: error decoding response body
+
+Caused by:
+    missing field `jsonrpc` at line 1 column 90
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

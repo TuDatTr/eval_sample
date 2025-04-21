@@ -1,0 +1,5 @@
+    Finished release [optimized + debuginfo] target(s) in 0.31s
+     Running `target/release/ethfuzz --cores 1-16 -o 0x0F2Ab62e91B115167dF40045477A55d3FFd0f1aa/ on-chain -a 0x0F2Ab62e91B115167dF40045477A55d3FFd0f1aa -b latest`
+thread 'main' panicked at src/lib.rs:198:13:
+Non testable smart contract.
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
